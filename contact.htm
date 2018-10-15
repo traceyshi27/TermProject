@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<header>
+    <title>Contact Me!</title>
+    <style type="text/css">
+    body{
+        font-family: helvetica;
+        background-image: url("images/contactbackground.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white
+    }
+    h1{
+        text-align: center;
+        font-size: 36pt;
+    }
+    #panel1{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    header{
+        float: right;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    .clear{
+        clear: both;
+    }
+    </style>
+</header>
+
+<body>
+    <header>
+        <a href="about.htm">About Me</a>
+        <a href="recipes.htm">Recipes</a>
+        <a href="tips.htm">Tips</a>
+        <a href="contact.htm">Contact Me</a>
+        <a href="sitemap.htm">Site Map</a>
+    </header>
+    <form>
+        <div id="panel1">
+            <h1>Contact Me!</h1>
+            <p>
+                Please contact me with any questions or comments!
+                <br><br>
+                Name <input type="text" name="name" maxlength="50" size="25">
+                <br><br>
+                Email <input type="text" name="email"
+                maxlength="100" size="30">
+                <br><br>
+                Phone (optional) <input type="text" name="phonenumber" maxlength="10" size="25">
+                <br><br>
+                <input type="radio" name="messagetype" value="question">Question
+                <input type="radio" name="messagetype" value="comment">Comment
+                <br><br>
+                <textarea name="comments" rows="5" cols="40"></textarea>
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
